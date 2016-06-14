@@ -1,3 +1,30 @@
 READ ME
 
-Purple Rain University
+Purple Rain University Disertation Writer
+
+Search:
+
+
+Store:
+Linked List node sturcture
+
+function resorce(index,text)
+	{
+		this.index=index; //self aware nodes in an array
+		this.date=new Date();
+		this.hits=0;
+		this.text=text;
+	};
+
+var list=new Array();
+
+for (i=0;i<25:i++)
+{
+	//search
+	list.push(new resorce(i,text);
+}
+
+
+
+
+		
