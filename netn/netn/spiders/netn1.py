@@ -4,9 +4,9 @@ import scrapy
 
 class Netn1Spider(scrapy.Spider):
     name = "netn1"
-    allowed_domains = ["https://scholar.google.com/scholar?hl=en"]
+    allowed_domains = ["https://scholar.google.com"]
     start_urls = (
-        'http://www.https://scholar.google.com/scholar?hl=en/',
+        'https://scholar.google.com/scholar?hl=en&as_sdt=0,23&q=Net+Neutrality',
     )
 
     def parse(self, response):
