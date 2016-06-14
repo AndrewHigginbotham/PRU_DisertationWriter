@@ -9,6 +9,9 @@ class Netn1Spider(scrapy.Spider):
         'https://scholar.google.com/scholar?hl=en&as_sdt=0,23&q=Net+Neutrality',
     )
 
+    custom_settings = {
+        'DEPTH_LIMIT': 1
+    }
     def parse(self, response):
         filename = response.url.split("/")[-2] + '.html'
         with open(filename, 'wb') as f:

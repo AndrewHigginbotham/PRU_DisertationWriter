@@ -5,7 +5,9 @@ r = requests.get("https://en.wikipedia.org/wiki/Net_neutrality")
 rawdata = r.text
 soup = BeautifulSoup(rawdata)
 
-print soup('p')
+#experimented with limit
+#, limit=2
+print soup.find_all('p')
 
 #https://en.wikipedia.org/wiki/Net_neutrality
 #http://www.savetheinternet.com/net-neutrality-what-you-need-know-now

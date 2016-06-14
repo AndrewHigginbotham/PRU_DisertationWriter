@@ -1,0 +1,52 @@
+started
+utter chaos
+
+put together as a team, broke down the problem
+the things we need
+    1) be able to search
+    2) get text from individual pages
+    3) parse the text
+    4) put the text together
+    5) display the text
+
+what went wrong?
+almost everything
+
+ideas
+what worked out-
+    able to use python libraries
+    read a file
+    put out the text
+
+the next approaches
+web search
+everything we tried failed
+    first, google API's
+    one was deprecated circa 2014
+    the other only searches domains you give it
+    and even then only minimal results
+    other groups tried as well
+    then went and looked for other web search API's
+    Yahoo discontinued theirs, the new one is for advertisement analysis
+    Bing required a membership and a bunch of other things without any reassurance it would work
+
+then, we decided we would do one page and then crawl down
+found scrapy, a web tool for python
+does web crawling down layers from a specified page
+
+except... we couldn't crawl anywhere
+we crawled no pages after spending 3 hours trying to figure it out
+
+so, we can't get sources
+we could hard code a bunch of sites
+
+what we ended up doing was just taking what we had and writing a custom parser
+then, we took that and put it out as an HTML page
+
+threw sources at the bottom and called it a night
+
+what we learned
+it's really hard to learn new languages and explore stuff in one night
+how to work as a team
+how to work through adversity
+how to explain why we failed
