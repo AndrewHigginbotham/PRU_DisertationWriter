@@ -4,7 +4,7 @@ utter chaos
 put together as a team, broke down the problem
 the things we need
     1) be able to search
-    2) get text from individual pages
+    2) get and store! text from individual pages
     3) parse the text
     4) put the text together
     5) display the text
@@ -17,6 +17,10 @@ what worked out-
     able to use python libraries
     read a file
     put out the text
+
+    initially, going to grab a paragraph from sources and shove them together
+    hopefully coherent
+    couldn't really get anything
 
 the next approaches
 web search
@@ -42,11 +46,13 @@ we could hard code a bunch of sites
 
 what we ended up doing was just taking what we had and writing a custom parser
 then, we took that and put it out as an HTML page
+except, python script to do it for us when parser had too many bugs to solve at midnight
 
-threw sources at the bottom and called it a night
+threw sources at the bottom with some CSS and called it a night
 
 what we learned
 it's really hard to learn new languages and explore stuff in one night
 how to work as a team
 how to work through adversity
 how to explain why we failed
+how to make powerpoints on very short notice
