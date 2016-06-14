@@ -10,4 +10,5 @@ soup = BeautifulSoup(rawdata)
 print soup.find_all('p')
 
 #https://en.wikipedia.org/wiki/Net_neutrality
-#http://www.savetheinternet.com/net-neutrality-what-you-need-know-now
+
+#can alternatively write to a file
